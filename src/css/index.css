@@ -3,12 +3,14 @@
 
 @import url('./NavBar.css');
 @import url('./Hero.css');
+@import url('./Footer.css');
 
 /* Defaults */
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: Inter;
 }
 
 /* Primary Variables */
