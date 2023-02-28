@@ -1,0 +1,69 @@
+.main-hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.center {
+  display: flex;
+  width: 70%;
+  justify-content: space-between;
+  height: 100vh;
+}
+.polygonHalf-div {
+  width: fit-content;
+  height: fit-content;
+  position: absolute;
+  left: 31%;
+}
+.polygon-img {
+  position: relative;
+  top: -65px;
+}
+.heading-logo {
+  width: 30%;
+  margin-top: 5%;
+}
+.email-div {
+  position: relative;
+  margin: 5% 0 10% 0;
+}
+.email-input {
+  background: #fbfbfb;
+  width: 100%;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  padding: 12px 20px;
+}
+.join-btn {
+  position: absolute;
+  background: #222b3a;
+  border: 1px solid #222b3a;
+  border-radius: 5px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  color: white;
+  letter-spacing: 0.002em;
+  padding: 10px 35px;
+  right: 0;
+}
+.Homeproperty-heading {
+  margin: 5% 0 10% 0;
+}
+.store-buttons {
+  display: flex;
+  gap: 20px;
+}
+.right-side {
+  display: flex;
+  align-items: center;
+}
+.group-div {
+  width: 100%;
+}
+.group-img {
+  width: 100%;
+}

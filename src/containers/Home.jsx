@@ -1,14 +1,16 @@
 // Init
 import React from 'react';
+import Hero from '../components/Hero';
 
 // Importing Components
-import Header from '../components/Header';
+import NavBar from '../components/NavBar';
 
 // Home Component
 export default function Home() {
   return (
     <div>
-      <Header />
+      <NavBar />
+      <Hero />
     </div>
   );
 }
