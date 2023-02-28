@@ -3,7 +3,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: #efefef;
+  /* background: #efefef; */
 }
 .center {
   display: flex;
@@ -469,7 +469,7 @@
   display: flex;
 }
 .left-encrypt {
-  width: 33.5%;
+  width: 43.5%;
   margin-left: auto;
 }
 .encrypt {
@@ -489,4 +489,5 @@
   line-height: 159.52%;
   text-align: justify;
   color: #2f2f30;
+  margin-bottom: 5%;
 }
