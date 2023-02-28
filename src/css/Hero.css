@@ -3,12 +3,42 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background: #efefef;
 }
 .center {
   display: flex;
   width: 70%;
   justify-content: space-between;
   height: 100vh;
+}
+.homeProperty {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 44px;
+  letter-spacing: -0.015em;
+  color: #2f2f30;
+  width: 80%;
+}
+.waitIsOver {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: -0.015em;
+  color: #2f2f30;
+  margin: 15px 0 80px 0;
+}
+.mail {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: -0.015em;
+  color: #2f2f30;
 }
 .polygonHalf-div {
   width: fit-content;
@@ -21,12 +51,12 @@
   top: -65px;
 }
 .heading-logo {
-  width: 30%;
+  width: 35%;
   margin-top: 5%;
 }
 .email-div {
   position: relative;
-  margin: 5% 0 10% 0;
+  margin: 5% 0 8% 0;
 }
 .email-input {
   background: #fbfbfb;
@@ -60,10 +90,403 @@
 .right-side {
   display: flex;
   align-items: center;
+  z-index: 1;
 }
 .group-div {
   width: 100%;
 }
 .group-img {
   width: 100%;
+}
+.divider {
+  border-top: 6px solid #bbbbbb;
+  margin: 15px 0 35px 0;
+  width: 244px;
+}
+.divider-2 {
+  width: 162px;
+  border-top: 4px solid #bbbbbb;
+  margin: 20px 0 35px 0;
+}
+.small {
+  width: 101px;
+}
+.section {
+  margin-top: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.left-section {
+  width: 50%;
+  margin-left: auto;
+}
+.ellipse-div {
+  width: 35%;
+  display: flex;
+  justify-content: flex-end;
+}
+.propertyHub {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+  letter-spacing: -0.015em;
+  color: #2f2f30;
+}
+.propertyPara {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 182.02%;
+  letter-spacing: -0.015em;
+  color: #2f2f30;
+  width: 75%;
+}
+.mobile-section {
+  display: flex;
+  align-items: center;
+  width: 70%;
+}
+.middle {
+  align-items: flex-start;
+  margin-top: 5%;
+  gap: 5%;
+}
+.coloumn {
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 8% 0 4% 0;
+}
+.mobile-div {
+  margin-right: 8%;
+}
+.mobile {
+  margin-top: 10%;
+}
+.rightSection {
+  width: 50%;
+}
+.Easy {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 39px;
+  letter-spacing: -0.015em;
+  color: #2f2f30;
+  width: 90%;
+  margin: 25px 0 15px 0;
+}
+.easyPara {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 169.5%;
+  letter-spacing: -0.015em;
+  color: #2f2f30;
+}
+.italic {
+  font-weight: 500;
+  font-style: italic;
+}
+.whyHPH {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: -0.015em;
+  color: #2f2f30;
+}
+.WhoShouldUse {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 39px;
+  letter-spacing: -0.015em;
+  text-transform: uppercase;
+  color: #2f2f30;
+  margin-bottom: 30px;
+}
+.WhoShouldUse-div {
+  width: 55%;
+}
+.WhoShouldUsePara {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 156.5%;
+  letter-spacing: -0.015em;
+  color: #2f2f30;
+}
+.realEstateBtn {
+  background: #222b3a;
+  border: 1px solid #222b3a;
+  border-radius: 10px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  color: #ffffff;
+  padding: 15px 90px;
+}
+.realEstateBtn-div {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+  margin-left: 5%;
+}
+.right {
+  position: absolute;
+  right: 8px;
+}
+.realEstate {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 204.02%;
+  letter-spacing: 0.05em;
+  color: #2f2f30;
+}
+.realEstatePara {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: 0.05em;
+}
+.backgroundBlack {
+  background-image: url('../assets//Home/BlackBackground.svg');
+  width: 100%;
+  background-repeat: no-repeat;
+  display: flex;
+  background-size: cover;
+  justify-content: center;
+  padding: 8% 0;
+}
+.inner-div {
+  display: flex;
+  width: 70%;
+  justify-content: center;
+  flex-direction: column;
+}
+.individual-content {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.left-content {
+  width: 43%;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  margin-top: 20px;
+}
+.full-content {
+  display: flex;
+  gap: 15%;
+}
+.contentPara {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  letter-spacing: 0.002em;
+  color: #ffffff;
+}
+.features {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+  letter-spacing: -0.015em;
+  text-transform: uppercase;
+  color: #fbfbfb;
+}
+.device {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.devicePara {
+  text-align: center;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 39px;
+  text-align: center;
+  letter-spacing: 0.105em;
+  color: #ffffff;
+  margin: 5% 0 10% 0;
+  width: 90%;
+}
+.socialBtns {
+  display: flex;
+  gap: 20px;
+}
+.pricing {
+  width: 70%;
+  margin-bottom: 5%;
+}
+.allBoxes {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10%;
+}
+.box {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+}
+.boxUpper {
+  background: #222b3a;
+  border-radius: 20px 20px 0px 0px;
+  box-shadow: 0px 5px 14px rgba(0, 0, 0, 0.25);
+  padding: 20px 10px;
+  display: flex;
+  justify-content: center;
+}
+.base {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 140%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  border-bottom: 4px solid #ffffff;
+  width: 162px;
+}
+.boxLower {
+  background: #ffffff;
+  box-shadow: 0px 5px 14px rgba(0, 0, 0, 0.25);
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  /* padding: 15px; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 10px;
+}
+.listItems {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 236.5%;
+  color: #2f2f30;
+}
+.amount {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 140%;
+  text-align: right;
+  color: #222b3a;
+}
+.year {
+  font-family: 'Inter';
+  font-size: 15px;
+  font-weight: 500;
+}
+.price {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 39px;
+  letter-spacing: -0.015em;
+  text-transform: uppercase;
+  color: #2f2f30;
+}
+.homeOwner {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #2f2f30;
+}
+.trial {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.05em;
+  color: #2f2f30;
+  margin: 20px 0 35px 0;
+}
+.question {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #222b3a;
+}
+.answer {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #2f2f30;
+}
+.A {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #2f2f30;
+}
+.QA {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 25px;
+  margin-bottom: 5%;
+}
+.Encryption {
+  display: flex;
+}
+.left-encrypt {
+  width: 33.5%;
+  margin-left: auto;
+}
+.encrypt {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  color: #222b3a;
+}
+.encyptPara {
+  width: 95%;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 159.52%;
+  text-align: justify;
+  color: #2f2f30;
 }
